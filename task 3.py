@@ -1,11 +1,11 @@
-minute = int(input("Enter value from 1 to 60: "))
-if minute <= 15:
+minute = int(input("Enter value from 0 to 59: "))
+if minute <= 14:
     print("This minute is in the first quarter")
-if minute > 15 and minute <= 30:
+if minute > 14 and minute <= 29:
     print("This minute is in the second quarter")
-if minute > 30 and minute <= 45:
+if minute > 29 and minute <= 44:
     print("This minute is in the third quarter")
-if minute > 45 and minute <= 60:
+if minute > 44 and minute <= 59:
     print("This minute is in the fourth quarter")
 else:
     print("Invalid value")
